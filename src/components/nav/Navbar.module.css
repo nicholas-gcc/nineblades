@@ -19,12 +19,12 @@
 }
 
 .nav__logo figure img {
-    width: 100%;
-    height: 100%;
+    width: 400%;
+    height: 200%;
 }
 
 .nav__logo p {
-    color: var(--primary);
+    color: var(--white);
     font-size: clamp(1.5rem, 2vw, 2rem);
     font-weight: 600;
     text-transform: uppercase;
@@ -57,7 +57,7 @@
 
     .nav__items a {
         text-decoration: none;
-        color: var(--primary);
+        color: var(--white);
         transition: all .3s ease-in-out;
     }
 

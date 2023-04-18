@@ -5,7 +5,6 @@ import Benefits from "./Benefits";
 const About = () => {
   return (
     <>
-      <AboutIntro />
       <Benefits />
     </>
   );

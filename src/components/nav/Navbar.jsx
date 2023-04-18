@@ -26,7 +26,7 @@ const Navbar = () => {
           <figure>
             <img src={logo} alt="Logo" />
           </figure>
-          <p>Natura</p>
+          <p>Nine Blades</p>
         </div>
 
         <RiMenuLine
@@ -44,32 +44,32 @@ const Navbar = () => {
           </li>
 
           <li>
-            <Link smooth to="#about">
-              About
+            <Link smooth to="#classes">
+              The Journey
             </Link>
           </li>
 
           <li>
             <Link smooth to="#programs">
-              Programs
+              Personal Training
             </Link>
           </li>
 
           <li>
-            <Link smooth to="#facilities">
-              Facilities
+            <Link smooth to="#membership">
+              Location
             </Link>
           </li>
 
           <li>
             <Link smooth to="#locations">
-              Locations
+              Contact
             </Link>
           </li>
         </ul>
 
         <div className={styled.nav__button}>
-          <Button link="#classes" className="secondary">
+          <Button link="#locations" className="secondary">
             View Classes
           </Button>
         </div>

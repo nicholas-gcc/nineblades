@@ -27,8 +27,29 @@
 .benefits__image img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    /* object-fit: cover;
+    background: linear-gradient(to bottom, #0D0D0D, transparent);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    box-shadow: 0 0 10px #0D0D0D, -10px 0 20px #0D0D0D; */
+    position: relative;
+    z-index: 2;
+    border: 5px solid #0D0D0D;
+    box-shadow: 0 0 10px #0D0D0D;
+
 }
+
+.benefits__image img::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #0D0D0D;
+    z-index: 1;
+    opacity: 0.5;
+  }
 
 /* Media Queries */
 

@@ -7,7 +7,7 @@ import styled from "./AboutIntro.module.css";
 const AboutIntro = () => {
   const heading = (
     <>
-      Fitness for <span>her</span>
+      The <span>Journey</span>
     </>
   );
   return (
@@ -15,20 +15,26 @@ const AboutIntro = () => {
       <Container className={styled.intro__grid}>
         <article className={styled.intro__content}>
           <Heading className="medium" heading={heading} />
+          <h2 className="text">
+            <b><u>Skill</u></b>
+          </h2>
           <p className="text">
-            Natura was founded in 2014 by two women who were passionate about
-            health and fitness. They wanted to create a safe space for women to
-            workout, free from the judgment and harassment that they often
-            experienced in traditional gyms.
+            Develop real skils with our experienced and dedicated trainers
           </p>
-
+          <h2 className="text">
+            <b><u>Fitness</u></b>
+          </h2>
           <p className="text">
-            The gym has helped countless women improve their health and
-            wellbeing, and it continues to be a place where women can come
-            together to support and motivate each other.
+            Get into the best shape of your lifr
+          </p>
+          <h2 className="text">
+            <b><u>Skill</u></b>
+          </h2>
+          <p className="text">
+            Develop real skils with our experienced and dedicated trainers
           </p>
           <Button link="#membership" className="primary">
-            Join Natura
+            Join Us Today
           </Button>
         </article>
       </Container>

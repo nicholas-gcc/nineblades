@@ -7,6 +7,7 @@ import Heading from "../helpers/heading/Heading";
 import {
   FaFacebookSquare,
   FaTwitterSquare,
+  FaTiktok,
   FaInstagramSquare,
 } from "react-icons/fa";
 
@@ -15,7 +16,7 @@ const Footer = () => {
     <footer className={styled.footer__container}>
       <Container className={styled.footer}>
         <ul className={styled.footer__links}>
-          <Heading className="small--dark" heading="Links" />
+          <Heading className="small--white" heading="Links" />
           <li>
             <Link smooth to="#home">
               Home
@@ -23,72 +24,74 @@ const Footer = () => {
           </li>
 
           <li>
-            <Link smooth to="#about">
-              About
+            <Link smooth to="#classes">
+              The Journey
             </Link>
           </li>
 
           <li>
             <Link smooth to="#programs">
-              Programs
+              Personal Training
             </Link>
           </li>
 
           <li>
-            <Link smooth to="#facilities">
-              Facilities
+            <Link smooth to="#membership">
+              Location
             </Link>
           </li>
 
           <li>
             <Link smooth to="#locations">
-              Locations
+              Classes
             </Link>
           </li>
         </ul>
 
         <article>
-          <Heading className="small--dark" heading="get in touch" />
+          <Heading className="small--white" heading="get in touch" />
           <ul className={styled.footer__contact}>
             <div className={styled["footer__contact--info"]}>
               <h3>Email</h3>
               <li>
-                <p>Maddison Garden</p>
-                <p>gymnaturamaddison@gmail.com</p>
+                <p>ninebladesmuaythai@gmail.com</p>
               </li>
 
               <li>
-                <p>Blairgrove</p>
-                <p>gymnaturablairgrove@gmail.com</p>
+                <p>Address</p>
+                <p>14 Robinson Rd, #13-00, Far East Finance Building</p>
+                <p>Singapore 048545</p>
               </li>
             </div>
 
             <div className={styled["footer__contact--info"]}>
               <h3>Phone</h3>
               <li>
-                <p>Maddison Garden</p>
-                <p>1-547-697-9236</p>
+                <p></p>
+                <p>+65 8884 0135</p>
               </li>
 
-              <li>
-                <p>Blairgrove</p>
-                <p>1-250-520-4256</p>
-              </li>
             </div>
           </ul>
         </article>
 
         <div className={styled.footer__icons}>
-          <Heading className="small--dark" heading="social media" />
+          <Heading className="small--white" heading="social media" />
           <div className={styled["footer__icons--icons"]}>
-            <FaInstagramSquare size={35} color="var(--secondary)" />
-            <FaFacebookSquare size={35} color="var(--secondary)" />
-            <FaTwitterSquare size={35} color="var(--secondary)" />
+            <a href="https://instagram.com/ninebladesmuaythaigym?igshid=YmMyMTA2M2Y=">
+              <FaInstagramSquare size={35} color="var(--white)" />
+            </a>
+            <a href="https://m.facebook.com/ninebladesgym/">
+            <FaFacebookSquare size={35} color="var(--white)" />
+            </a>
+            <a href="https://www.tiktok.com/@ninebladesgym?_t=8bbDc4m9FEg&_r=1">
+            <FaTiktok size={35} color="var(--white)" />
+            </a>
           </div>
         </div>
       </Container>
 
-      <ul className={styled.footer__logo}>
+      {/* <ul className={styled.footer__logo}>
         <Heading className="small" heading="natura" />
         <li>
           <a
@@ -99,7 +102,7 @@ const Footer = () => {
             Designed & Developed by Monique
           </a>
         </li>
-      </ul>
+      </ul> */}
     </footer>
   );
 };

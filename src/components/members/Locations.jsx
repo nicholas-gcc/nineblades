@@ -15,10 +15,11 @@ const Locations = () => {
     <section className={styled.locations} id="locations">
       <Container>
         <article className={styled.locations__content}>
-          <Heading className="medium--dark" heading="be part of the elite" />
+          <Heading className="medium--dark" heading="our class schedule" />
           <p className="text--dark">
-            Whether you're just starting out on your fitness journey or you're a
-            seasoned pro, we have something for everyone.
+          Morning, Lunch, Evening and Saturday classes.
+          Book your first class on calendly.
+
           </p>
         </article>
 

@@ -1,14 +1,14 @@
 import React from "react";
 import styled from "./ProgramsIntro.module.css";
 import Container from "../helpers/wrapper/Container";
-import womanRunning from "../../assets/woman_running.png";
+import womanRunning from "../../assets/muay_thai_knee.png";
 import Heading from "../helpers/heading/Heading";
 import Button from "../helpers/button/Button";
 
 const ProgramsIntro = () => {
   const heading = (
     <>
-      perspire to <span>greatness</span>
+      <span>personalized</span> training
     </>
   );
 
@@ -17,21 +17,19 @@ const ProgramsIntro = () => {
       <Container className={styled.intro__content}>
         <article className={styled["intro__content--info"]}>
           <Heading className="medium" heading={heading} />
-          <p className="text">
-            With experienced and certified instructors, Natura is the perfect
-            place to get started on your fitness journey or take your workout to
-            the next level. We offer a variety of classes designed to help women
-            of all shapes and sizes.
-          </p>
+          <h2 className="text">
+            1 to 1 Muay Thai personal training in CBD.
+          </h2>
 
-          <p className="text">
-            Our classes include everything from yoga and pilates to kickboxing
-            and strength & personal training, nutritional counseling, and
-            massages plus workshops that focus on topics such as body image,
-            self-care,
-          </p>
-          <Button className="primary" link="#classes">
-            See Programs
+          <h2 className="text">
+            Get fit and lean fast. Accelerate your progess.
+          </h2>
+
+          <h2 className="text">
+            Flexible timings at your convenience.
+          </h2>
+          <Button className="primary" link="https://www.instagram.com/p/CpbsxpIvG-v/?igshid=YmMyMTA2M2Y=">
+            View Rates
           </Button>
         </article>
 

@@ -32,26 +32,26 @@ const Menu = ({ setIsOpen }) => {
           </li>
 
           <li>
-            <Link smooth to="#about">
-              About
+            <Link smooth to="#facilities">
+              Schedule
             </Link>
           </li>
 
           <li>
             <Link smooth to="#programs">
-              Programs
+              Rates
             </Link>
           </li>
 
           <li>
             <Link smooth to="#facilities">
-              Facilities
+              Location
             </Link>
           </li>
 
           <li>
             <Link smooth to="#locations">
-              Locations
+              Contact
             </Link>
           </li>
         </ul>

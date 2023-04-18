@@ -5,8 +5,8 @@ import ProgramsList from "./ProgramsList";
 const Programs = () => {
   return (
     <>
-      <ProgramsIntro />
       <ProgramsList />
+      <ProgramsIntro />
     </>
   );
 };

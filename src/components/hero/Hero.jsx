@@ -8,7 +8,7 @@ import Button from "../helpers/button/Button";
 const Hero = () => {
   const heading = (
     <>
-      THE EVOLUTION OF <span> fitness</span> for <span>her</span>
+      <span>pure</span> muay thai gym
     </>
   );
 
@@ -20,15 +20,14 @@ const Hero = () => {
         <div className={styled["hero__content--container"]}>
           <article className={styled.hero__content}>
             <Heading className="large" heading={heading} />
-            <p className="text">
-              We believe women should exercise in safe and welcoming space. Our
-              goal is to help women feel confident and comfortable in their own
-              skin, and to encourage them to lead healthy, active lifestyles.
-            </p>
+            <h2 className="text">
+            Experience Muay Thai Singapore - Learn the art of Muay Thai and become your best self
+            </h2>
 
-            <Button className="primary" link="#membership">
-              Become a Member
+            <Button className="primary" link="https://calendly.com/ninebladesmuaythai?fbclid=PAAaaUtt7Oh19lnkbK84fMX7V8tW-8_e6XQEo3_MlyILb99MNVZyCWNmDosSM">
+              Book Your First Class
             </Button>
+
           </article>
         </div>
       </Container>

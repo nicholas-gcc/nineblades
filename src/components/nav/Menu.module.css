@@ -34,7 +34,7 @@
 }
 
 .menu__header p {
-    color: var(--primary);
+    color: var(--white);
     font-size: clamp(1.5rem, 2vw, 2rem);
     font-weight: 600;
     text-transform: uppercase;
@@ -58,5 +58,5 @@
 
 .menu__items a {
     text-decoration: none;
-    color: var(--primary);
+    color: var(--white);
 }
