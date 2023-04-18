@@ -1,6 +1,6 @@
 import classSchedule from "../../assets/class_schedule.jpg";
-import classPackageRate from "../../assets/class_package.jpg";
-import ptRate from "../../assets/personal_training_rate.jpg"
+import classPackageRate from "../../assets/class_package.JPG";
+import ptRate from "../../assets/personal_training_rate.JPG"
 
 export const gymLocations = [
   {
