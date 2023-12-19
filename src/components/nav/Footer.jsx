@@ -40,11 +40,6 @@ const Footer = () => {
             </Link>
           </li>
 
-          <li>
-            <Link smooth to="#contact">
-              Contact
-            </Link>
-          </li>
         </ul>
 
         <article>

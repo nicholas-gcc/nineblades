@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "./Button.module.css";
 import { HashLink as Link } from "react-router-hash-link";
-import { useNavigate } from "react-router-dom";
 
 const Button = (props) => {
   const link = props?.link ?? "";

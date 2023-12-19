@@ -4,6 +4,8 @@
     height: max-content;
     scroll-snap-align: end;
     background-color: rgba(11, 11, 12, 0.848);
+    max-height: 100vh;
+
 }
 
 .footer article {

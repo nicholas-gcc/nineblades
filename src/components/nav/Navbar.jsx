@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import styled from "./Navbar.module.css";
 import { RiMenuLine } from "react-icons/ri";
-import logo from "../../assets/9b_logo_new.png";
+import logo from "../../assets/9b_logo_new-removebg.png";
 import Menu from "./Menu";
 import { HashLink as Link } from "react-router-hash-link";
 import Button from "../helpers/button/Button";
