@@ -3,7 +3,6 @@ import styled from "./Join.module.css";
 import Button from "../helpers/button/Button";
 import Heading from "../helpers/heading/Heading";
 import Container from "../helpers/wrapper/Container";
-import exercise from "../../assets/exercise.png";
 import facilitiesImage from "../../assets/facilities_img.png";
 
 const Join = () => {
@@ -36,10 +35,9 @@ const Join = () => {
         
 
           <form>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSeRcNbUY1td5Lkml-obgDncjcPyojk1-xV1YRuiqymLwEwTFQ/viewform">
-            <Button className="neutral">Register Your Interest</Button>
-          </a>
-
+            <Button 
+            link="https://docs.google.com/forms/d/e/1FAIpQLSeRcNbUY1td5Lkml-obgDncjcPyojk1-xV1YRuiqymLwEwTFQ/viewform" 
+            className="neutral">Register Your Interest</Button>
           </form>
         </div>
 
