@@ -1,12 +1,13 @@
 import React from "react";
-import ProgramsIntro from "./ProgramsIntro";
+import ProgramsPT from "./ProgramsPT";
 import ProgramsList from "./ProgramsList";
+import Prices from "../prices/Prices";
 
 const Programs = () => {
   return (
     <>
       <ProgramsList />
-      <ProgramsIntro />
+      <Prices />
     </>
   );
 };

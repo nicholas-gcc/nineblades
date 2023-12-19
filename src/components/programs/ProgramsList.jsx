@@ -2,18 +2,18 @@ import React from "react";
 import styled from "./ProgramsList.module.css";
 import Heading from "../helpers/heading/Heading";
 import Container from "../helpers/wrapper/Container";
-import { classes } from "./classes";
+import { qualities } from "./qualities";
 import Item from "../helpers/item/Item";
 
 const ProgramsList = () => {
-  const programs = classes.map((program) => {
+  const programs = qualities.map((quality) => {
     return (
-      <Item key={program.id} item={program} className="program" theme="light" />
+      <Item key={quality.id} item={quality} className="program" theme="light" />
     );
   });
 
   return (
-    <section className={styled.programs} id="classes">
+    <section className={styled.programs} id="journey">
       <Container>
         <article className={styled.programs__content}>
           <Heading className="medium" heading="The Journey" />

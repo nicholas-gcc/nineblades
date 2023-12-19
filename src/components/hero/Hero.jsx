@@ -21,7 +21,7 @@ const Hero = () => {
           <article className={styled.hero__content}>
             <Heading className="large" heading={heading} />
             <h2 className="text">
-            Experience Muay Thai Singapore - Learn the art of Muay Thai and become your best self
+            Experience Muay Thai Singapore in the CBD
             </h2>
 
             <Button className="primary" link="https://calendly.com/ninebladesmuaythai?fbclid=PAAaaUtt7Oh19lnkbK84fMX7V8tW-8_e6XQEo3_MlyILb99MNVZyCWNmDosSM">

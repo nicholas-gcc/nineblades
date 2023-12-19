@@ -6,14 +6,13 @@ import Heading from "../helpers/heading/Heading";
 
 import {
   FaFacebookSquare,
-  FaTwitterSquare,
   FaTiktok,
   FaInstagramSquare,
 } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className={styled.footer__container}>
+    <footer className={styled.footer__container} id="contact">
       <Container className={styled.footer}>
         <ul className={styled.footer__links}>
           <Heading className="small--white" heading="Links" />
@@ -24,7 +23,7 @@ const Footer = () => {
           </li>
 
           <li>
-            <Link smooth to="#classes">
+            <Link smooth to="#journey">
               The Journey
             </Link>
           </li>
@@ -36,14 +35,14 @@ const Footer = () => {
           </li>
 
           <li>
-            <Link smooth to="#membership">
+            <Link smooth to="#join">
               Location
             </Link>
           </li>
 
           <li>
-            <Link smooth to="#locations">
-              Classes
+            <Link smooth to="#contact">
+              Contact
             </Link>
           </li>
         </ul>
@@ -91,18 +90,7 @@ const Footer = () => {
         </div>
       </Container>
 
-      {/* <ul className={styled.footer__logo}>
-        <Heading className="small" heading="natura" />
-        <li>
-          <a
-            target="_blank"
-            href="https://github.com/m-oniqu3?tab=repositories"
-            rel="noreferrer"
-          >
-            Designed & Developed by Monique
-          </a>
-        </li>
-      </ul> */}
+      
     </footer>
   );
 };

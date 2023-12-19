@@ -15,7 +15,7 @@ const Join = () => {
 
   return (
     <Container>
-      <section className={styled.join} id="membership">
+      <section className={styled.join} id="join">
         <div>
           <article className={styled.join__content}>
             <Heading className="medium--dark" heading={heading} />
@@ -31,16 +31,20 @@ const Join = () => {
             Walk past the 7/11, look for a brown marbled entrance with glass doors.
             Far East Finance Building is located beside Level Gym @ Robinson Road
             </p>
+
           </article>
+        
 
           <form>
-            <input type="text" placeholder="Enter your email" />
-            <Button className="neutral">Join Us</Button>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSeRcNbUY1td5Lkml-obgDncjcPyojk1-xV1YRuiqymLwEwTFQ/viewform">
+            <Button className="neutral">Register Your Interest</Button>
+          </a>
+
           </form>
         </div>
 
         <figure className={styled.join__image}>
-          <img src={facilitiesImage} alt="Woman in the gym exercising" />
+          <img src={facilitiesImage} alt="" />
         </figure>
       </section>
     </Container>

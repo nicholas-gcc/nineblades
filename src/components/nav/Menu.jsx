@@ -3,7 +3,7 @@ import styled from "./Menu.module.css";
 import { HashLink as Link } from "react-router-hash-link";
 import Container from "../helpers/wrapper/Container";
 import { createPortal } from "react-dom";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/9b_logo_new-removebg.png";
 import { IoCloseSharp } from "react-icons/io5";
 
 const Menu = ({ setIsOpen }) => {
@@ -18,39 +18,39 @@ const Menu = ({ setIsOpen }) => {
             <figure>
               <img src={logo} alt="Logo" />
             </figure>
-            <p>Natura</p>
+            <p></p>
           </div>
 
           <IoCloseSharp size={30} color="var(--primary)" onClick={handleMenu} />
         </div>
 
         <ul className={styled.menu__items}>
-          <li>
+        <li>
             <Link smooth to="#home">
               Home
             </Link>
           </li>
 
           <li>
-            <Link smooth to="#facilities">
-              Schedule
+            <Link smooth to="#journey">
+              The Journey
             </Link>
           </li>
 
           <li>
             <Link smooth to="#programs">
-              Rates
+              Personal Training
             </Link>
           </li>
 
           <li>
-            <Link smooth to="#facilities">
+            <Link smooth to="#join">
               Location
             </Link>
           </li>
 
           <li>
-            <Link smooth to="#locations">
+            <Link smooth to="#contact">
               Contact
             </Link>
           </li>
